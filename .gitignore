@@ -1,0 +1,48 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Nuget
+.nuget
+packages
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# This line needs to be after the ignore of the build folder (and the packages folder if the line above has been uncommented)
+!packages/build/
+
+node_modules/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+#Visual studio files
+.vs/
+
+Doc/*.crt
+Doc/*.cnf
+Doc/*.csr
+Doc/*.key
+Doc/*.pfx
+Doc/*.srl
+
+# MS Office temporary files
+~$*
